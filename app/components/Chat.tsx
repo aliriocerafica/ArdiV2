@@ -7,8 +7,7 @@ import { IoStop } from 'react-icons/io5';
 import { HiDotsVertical } from 'react-icons/hi';
 import { FiStar, FiShare2, FiTrash2 } from 'react-icons/fi';
 import ChatMessages from './ChatMessages';
-import { filterContent, shouldIgnoreMessage, getAppropriateResponse } from '../../lib/contentFilter';
-import { findKnowledge } from '../../lib/knowledgeIndex';
+// Content filtering and knowledge lookup now handled by API routes
 
 interface Message {
   id: number;
